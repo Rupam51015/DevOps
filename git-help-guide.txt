@@ -1,0 +1,42 @@
+╔══════════════════════════════════════════════════════╗
+║           🔧 Common Git Commands                     ║
+╠══════════════════════════════════════════════════════╣
+║  SETUP                                               ║
+║  git config --global user.name  "Your Name"          ║
+║  git config --global user.email "you@example.com"    ║
+╠══════════════════════════════════════════════════════╣
+║  BASICS                                              ║
+║  git init          Initialize a repo                 ║
+║  git clone <url>   Clone a repository                ║
+║  git status        Show working tree status          ║
+║  git add .         Stage all changes                 ║
+║  git add <file>    Stage specific file               ║
+║  git commit -m ""  Commit staged changes             ║
+║  git push          Push to remote                    ║
+║  git pull          Pull from remote                  ║
+╠══════════════════════════════════════════════════════╣
+║  BRANCHING                                           ║
+║  git branch              List branches               ║
+║  git branch <name>       Create branch               ║
+║  git checkout <name>     Switch branch               ║
+║  git checkout -b <name>  Create & switch             ║
+║  git merge <branch>      Merge branch                ║
+║  git branch -d <name>    Delete branch               ║
+╠══════════════════════════════════════════════════════╣
+║  HISTORY                                             ║
+║  git log               Show commit history           ║
+║  git log --oneline     Compact history               ║
+║  git diff              Show unstaged changes         ║
+║  git diff --staged     Show staged changes           ║
+╠══════════════════════════════════════════════════════╣
+║  UNDO                                                ║
+║  git restore <file>    Discard changes               ║
+║  git reset HEAD~1      Undo last commit              ║
+║  git stash             Stash changes                 ║
+║  git stash pop         Apply stashed changes         ║
+╠══════════════════════════════════════════════════════╣
+║  REMOTE                                              ║
+║  git remote -v              List remotes             ║
+║  git remote add origin <url> Add remote              ║
+║  git fetch                  Fetch changes            ║
+╚══════════════════════════════════════════════════════╝
