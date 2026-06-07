@@ -1,2 +1,3 @@
-# Steps of github integration with jira
-- Go to jira
+# Steps of GitHub integration with Jira
+- Go to Jira
+- Go to Spaces, 
